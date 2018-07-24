@@ -1,0 +1,46 @@
+
+body{
+  background: darkcyan;
+}
+
+.inicio{
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+  height: 50px;
+  width: 30%;
+}
+
+.num{
+  flex: 1;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border: none;
+}
+
+.btn1{
+  flex: 1;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.fibodiv{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  background: white;
+  min-height: 25rem;
+  border-radius: 7px;
+  border-color: darkslategrey;
+}
+
+.barra{
+  flex: 1;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.1rem;
+  background: rgb(166, 166, 252);
+  align-self: flex-end;
+}
